@@ -6,7 +6,9 @@
  * The Master branch in currently using [Vivado Design Suite](https://www.xilinx.com/support/download.html),
  version 2019.2, which needs a valid license to compile projects using Xilinx Kintex-7 XC7K325T FPGA
 
-2.  Clone repository  the latest release, and `cd vivado-template` to the folder
+2.  Clone repository  the latest release, and `cd vivado-template` to the folder:
+` git clone --recurse-submodules https://github.com/bernardocarvalho/vivado-template `
+
 3. Create and build the project in Vivado **Project Mode** (with GUI)
 
 Open Vivado IDE and do:
